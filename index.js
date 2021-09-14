@@ -2,7 +2,9 @@
 
 const fs = require('fs');
 
-const DIR = `${__dirname}/data`;
+const DIR = `./data`;
+
+console.log({ DIR });
 
 // Check if data folder exists
 if (!fs.existsSync(DIR)) {

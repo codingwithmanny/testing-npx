@@ -1,7 +1,7 @@
 {
   "name": "testing-npx",
   "version": "1.0.0",
-  "bin": "./index.js",
+  "bin": "node ./index.js",
   "repository": "https://github.com/codingwithmanny/testing-npx",
   "license": "MIT"
 }
